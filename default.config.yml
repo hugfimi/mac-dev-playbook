@@ -59,6 +59,7 @@ homebrew_cask_apps:
   - google-chrome
   - iterm2
   - java
+  - libreoffice
   - macvim
   - mailmate
   - pycharm
@@ -70,7 +71,6 @@ homebrew_cask_apps:
   - transmission
   - vagrant
   - virtualbox
-
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids:
   - 407963104 # Pixelmator
