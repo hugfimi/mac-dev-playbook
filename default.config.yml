@@ -50,10 +50,12 @@ homebrew_cask_apps:
   - alfred
   - bartender
   - dash
+  - disk-inventory-x
   - docker
   - dropbox
   - firefox
   - flux
+  - gitup
   - google-chrome
   - iterm2
   - java
@@ -63,6 +65,7 @@ homebrew_cask_apps:
   - screenhero
   - skype-for-business
   - slack
+  - spectacle
   - spotify
   - transmission
   - vagrant
@@ -74,5 +77,6 @@ mas_installed_app_ids:
   - 585829637 # Todoist
   - 568494494 # Pocket
   - 552777084 # Radio
+  - 429449079 # Patterns
 mas_email: ""
 mas_password: ""
