@@ -18,39 +18,23 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - chromedriver
-  - doxygen
   - gettext
   - git
-  - go
-  - gpg
-  - hub
+  - git-flow
   - httpie
-  - iperf
-  - libdvdcss
-  - libevent
-  - packer
   - python
-  - sqlite
-  - mcrypt
-  - mysql
-  - nmap
   - npm
   - nvm
-  - php70
-  - php70-mcrypt
-  - php70-xdebug
   - ssh-copy-id
   - cowsay
   - readline
   - subversion
+  - tmux
   - openssl
+  - python3
+  - tree
   - pv
-  - drush
   - wget
-  - wrk
 
 homebrew_taps:
   - homebrew/core
@@ -62,32 +46,32 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - alfred
+  - bartender
+  - dash
   - docker
   - dropbox
-  - fing
   - firefox
+  - flux
   - google-chrome
-  - handbrake
-  - hipchat
+  - iterm2
   - java
-  - kdiff3
-  - licecap
-  - limechat
   - macvim
-  # - menumeters
-  # - yujitach-menumeters # Forked version for 10.11+ support.
-  - nvalt
-  - sequel-pro
-  - skype
-  - skitch
+  - mailmate
+  - pycharm
+  - screenhero
+  - skype-for-business
   - slack
-  - sublime-text
-  - transmit
+  - spotify
+  - transmission
   - vagrant
   - virtualbox
-  - vlc
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_app_ids: []
+mas_installed_app_ids:
+  - 407963104 # Pixelmator
+  - 585829637 # Todoist
+  - 568494494 # Pocket
+  - 552777084 # Radio
 mas_email: ""
 mas_password: ""
