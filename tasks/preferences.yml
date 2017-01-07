@@ -45,7 +45,7 @@
     dest: ~/
     mode: 0755
 
-- name: Create development directory for Hugfimi at the correct location
+- name: Create development directory for Hugfimi
   copy:
     src: files/hugfimi/
     dest: ~/
