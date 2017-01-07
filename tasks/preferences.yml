@@ -34,12 +34,16 @@
   shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 - name: Install Vundle as Vim package manager
-  shell: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  git:
+    repo: https://github.com/VundleVim/Vundle.vim.git
+    dest: ~/.vim/bundle/Vundle.vim
+    version: master
 
 - name: Add solarized colorscheme to vim
-  shell: mkdir -p colors && cd colors && curl -o solarized.vim https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
-  args:
-    chdir: ~/.vim/
+  copy:
+    src: files/vim/.vim
+    dest: ~/
+    mode: 0755
 
 - name: Create development directory for Hugfimi at the correct location
   copy:
