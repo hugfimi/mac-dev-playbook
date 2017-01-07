@@ -40,3 +40,9 @@
   shell: mkdir -p colors && cd colors && curl -o solarized.vim https://raw.githubusercontent.com/altercation/vim-colors-solarized/master/colors/solarized.vim
   args:
     chdir: ~/.vim/
+
+- name: Create development directory for Hugfimi at the correct location
+  copy:
+    src: files/hugfimi/
+    dest: ~/hugfimi/
+    mode: 0775
