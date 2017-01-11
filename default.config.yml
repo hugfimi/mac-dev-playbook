@@ -14,6 +14,7 @@ dotfiles_files:
   - .gitignore
   - .inputrc
   - .osx
+  - .tmuxrc
   - .vimrc
 
 homebrew_installed_packages:
@@ -72,11 +73,11 @@ homebrew_cask_apps:
   - vagrant
   - virtualbox
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_app_ids:
-  - 407963104 # Pixelmator
-  - 585829637 # Todoist
-  - 568494494 # Pocket
-  - 552777084 # Radio
-  - 429449079 # Patterns
+mas_installed_app_ids: []
+#  - 407963104 # Pixelmator
+#  - 585829637 # Todoist
+#  - 568494494 # Pocket
+#  - 552777084 # Radio
+#  - 429449079 # Patterns
 mas_email: ""
 mas_password: ""
