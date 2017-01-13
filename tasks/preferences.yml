@@ -50,3 +50,11 @@
     src: files/hugfimi/
     dest: ~/development/hugfimi
     mode: 0775
+
+- name: Download apps that need to be installed manually
+  shell: curl -O "{{ item }}"
+  args:
+    chdir: "{{ download_dest }}"
+  with_items: "{{ download_apps }}"
+  tags:
+    - manual_apps

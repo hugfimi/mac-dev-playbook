@@ -70,7 +70,7 @@ homebrew_cask_apps:
   - spectacle
   - spotify
   - transmission
-  - vagrant
+#  - vagrant  # disabled because the latest version does not work
   - virtualbox
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_app_ids: []
@@ -81,3 +81,8 @@ mas_installed_app_ids: []
 #  - 429449079 # Patterns
 mas_email: ""
 mas_password: ""
+
+# these are apps that need to be installed manually
+download_dest: ~/Downloads
+download_apps:
+  - https://releases.hashicorp.com/vagrant/1.9.0/vagrant_1.9.0.dmg
