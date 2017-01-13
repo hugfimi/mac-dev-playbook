@@ -14,7 +14,7 @@ dotfiles_files:
   - .gitignore
   - .inputrc
   - .osx
-  - .tmuxrc
+  - .tmux.conf
   - .vimrc
 
 homebrew_installed_packages:
